@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-	int x[5] = { 22, 18, 2, 55, 520 };
+	int X[5] = { 22, 18, 2, 55, 520 };
 
-	cout << X[0] << endl;
+	cout << &X[0] << endl;
 	cout << X[1] << endl;
 	cout << X[2] << endl;
 	cout << X[3] << endl;
