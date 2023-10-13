@@ -48,7 +48,7 @@ int main()
     Person1.ContactInfo.Phone = "065997885544";
     Person1.Gender = enGENDER ::Female;
     Person1.MaritalStatus = enMaritalSTATUS :: Married;
-
+    
 
     cout << Person1.LastName << endl;
     cout << Person1.FirstName << endl;
@@ -60,6 +60,7 @@ int main()
     cout << Person1.ContactInfo.Email << endl;
     cout << Person1.ContactInfo.Phone << endl;
     cout << Person1.FavoriteColor << endl;
+    cout << Person1.Gender << endl;
 
     return 0;
 }
